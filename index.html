@@ -27,7 +27,6 @@
             margin-bottom: 20px;
         }
         
-        /* Ascundem bara de sus Google care poate fi enervantă */
         .goog-te-banner-frame.skiptranslate {
             display: none !important;
         }
@@ -35,7 +34,6 @@
             top: 0px !important;
         }
         
-        /* Stilizare Dropdown */
         .goog-te-gadget-simple {
             background-color: #1A1A1A !important;
             border: 1px solid #00E5FF !important;
@@ -44,11 +42,11 @@
             color: #fff !important;
         }
         .goog-te-gadget-simple span {
-            color: #00E5FF !important; /* Text Cyan */
+            color: #00E5FF !important; 
             font-weight: bold;
         }
         .goog-te-gadget-icon {
-            display: none !important; /* Ascundem iconita Google */
+            display: none !important; 
         }
     </style>
 </head>
@@ -57,61 +55,58 @@
         <div id="google_translate_element"></div>
 
         <h1>Privacy Policy for ElectroFix</h1>
-        <p><strong>Effective Date:</strong> March 3, 2026</p>
+        <p><strong>Effective Date:</strong> March 29, 2026</p>
         
         <p>ElectroFix ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use our Android application.</p>
 
         <h2>1. Data Collection and Usage</h2>
         <ul>
             <li>
-                <strong>Sensor Data (Local Processing):</strong> ElectroFix accesses high-sampling rate sensors (accelerometer) and battery statistics solely to optimize system performance through metabolic fingerprinting and drift calibration. This specific sensor data is processed <strong>locally</strong> on your device in real-time. We do not transmit sensor waveforms to external servers.
+                <strong>Sensor Data (Local Processing):</strong> ElectroFix accesses high-sampling rate sensors (accelerometer) and battery statistics solely to optimize system performance through metabolic fingerprinting and drift calibration. This data is processed <strong>locally</strong> in real-time.
             </li>
             <li>
-                <strong>Device Identifiers (Cloud & Security):</strong> To prevent trial abuse, unauthorized tampering, and to ensure the integrity of the licensing system, we collect a unique <strong>Device ID (Android ID)</strong> and the <strong>Installation Timestamp</strong>. This data is stored securely using <strong>Google Firebase Realtime Database</strong>. This information is used strictly for <strong>App Functionality</strong> and <strong>Fraud Prevention</strong>.
+                <strong>Device Identifiers (Cloud & Security):</strong> To prevent trial abuse and ensure licensing integrity, we collect a unique <strong>Device ID (Android ID)</strong> and <strong>Installation Timestamp</strong>. This data is stored securely via <strong>Google Firebase</strong> and is used strictly for <strong>App Functionality</strong> and <strong>Fraud Prevention</strong>.
             </li>
             <li>
-                <strong>Analytics and Advertising Data (AD_ID):</strong> We use Google Firebase Analytics to understand how users interact with our application (e.g., when the optimization engine is started or stopped, or when a paywall is viewed). To attribute app installations to our advertising campaigns accurately, we collect the <strong>Google Advertising ID</strong>. This data is aggregated, anonymized, and used strictly to improve user experience and optimize our user acquisition campaigns.
+                <strong>Analytics and Advertising Data (AD_ID):</strong> We use Google Firebase Analytics to track interactions (e.g., optimization engine status). We collect the <strong>Google Advertising ID</strong> for install attribution and marketing optimization. Data is aggregated and anonymized.
             </li>
         </ul>
         
         <h2>2. Permissions</h2>
-        <p>The application requests specific permissions strictly to maintain functionality and security:</p>
+        <p>The application requests specific permissions strictly for functionality:</p>
         <ul>
-            <li><strong>WAKE_LOCK & FOREGROUND_SERVICE:</strong> Required to maintain the performance shield active while the screen is off.</li>
-            <li><strong>HIGH_SAMPLING_RATE_SENSORS:</strong> Required for precise hardware monitoring and calibration.</li>
-            <li><strong>INTERNET & ACCESS_NETWORK_STATE:</strong> Required to verify the integrity of the trial period via our secure time servers (NTP) and secure cloud synchronization with Firebase.</li>
-            <li><strong>ACCESS_WIFI_STATE:</strong> Required to optimize Wi-Fi connection stability during data streaming.</li>
-            <li><strong>AD_ID (Advertising ID):</strong> Required for Google Analytics to measure the effectiveness of our advertising campaigns and understand aggregated user behavior. You can reset or opt-out of personalized ads via your Android device settings.</li>
+            <li><strong>WAKE_LOCK & FOREGROUND_SERVICE:</strong> To keep the performance shield active.</li>
+            <li><strong>HIGH_SAMPLING_RATE_SENSORS:</strong> For precise hardware monitoring.</li>
+            <li><strong>INTERNET & ACCESS_NETWORK_STATE:</strong> For trial verification (NTP) and Firebase sync.</li>
+            <li><strong>AD_ID (Advertising ID):</strong> For analytics and campaign measurement.</li>
         </ul>
 
         <h2>3. Payments and Subscriptions</h2>
-        <p>All financial transactions and subscriptions are handled securely through the <strong>Google Play Billing System</strong>. ElectroFix does not have access to, nor does it store, your credit card details or billing information. We only receive a cryptographic confirmation of an active subscription from Google Play to enable premium features.</p>
+        <p>All transactions are handled by the <strong>Google Play Billing System</strong>. ElectroFix does not store credit card details. We only receive a cryptographic confirmation of purchase from Google to enable features.</p>
 
         <h2>4. Third-Party Services</h2>
-        <p>We use trusted third-party services to ensure the security and stability of the application:</p>
         <ul>
-            <li><strong>Google Play Services:</strong> For application updates, security, and licensing verification.</li>
-            <li><strong>Google Firebase:</strong> For secure data synchronization regarding trial status and fraud prevention.</li>
-            <li><strong>Google Analytics for Firebase:</strong> For aggregated telemetry regarding application usage, event tracking, and advertising conversion attribution.</li>
+            <li><strong>Google Play Services:</strong> Updates and security.</li>
+            <li><strong>Google Firebase:</strong> Data synchronization and fraud prevention.</li>
+            <li><strong>Google Analytics for Firebase:</strong> Usage telemetry and attribution.</li>
         </ul>
-        <p>These services may collect information used to identify your device in accordance with their own privacy policies.</p>
 
         <h2>5. Data Retention and Deletion</h2>
-        <p><strong>Retention:</strong> We retain minimal data (Device ID and Trial Start Date) to ensure the integrity of our trial system and prevent fraud. This data is stored securely in Firebase.</p>
+        <p><strong>Retention:</strong> We retain minimal data (Device ID and Subscription Status) indefinitely to protect intellectual property and prevent license bypass through reinstallation.</p>
         
-        <p><strong>Deletion Rights:</strong> Users have the right to request the deletion of their associated data. To exercise this right, please follow these steps:</p>
+        <p><strong>Deletion Rights:</strong> Users can request data deletion by following these steps:</p>
         <ul>
-            <li><strong>Step 1:</strong> Send an email to <strong>bogdanvoda3aap27@gmail.com</strong> with the subject line "Data Deletion Request".</li>
-            <li><strong>Step 2:</strong> Include your unique <strong>Device ID</strong> in the email (this allows us to locate your anonymous record in Firebase).</li>
-            <li><strong>Step 3:</strong> Once verified, we will permanently delete your records from our servers within <strong>30 days</strong>.</li>
+            <li><strong>Step 1:</strong> Email <strong>bogdanvoda3aap27@gmail.com</strong> with the subject "Data Deletion Request".</li>
+            <li><strong>Step 2:</strong> Include your unique <strong>Device ID</strong> in the email.</li>
+            <li><strong>Step 3:</strong> Once verified, records will be deleted within <strong>30 days</strong>.</li>
         </ul>
-        <p><strong>Note:</strong> Deleting this data will immediately terminate any active trial period associated with your device.</p>
+        <p><strong>IMPORTANT NOTICE:</strong> Requesting data deletion will immediately and irreversibly terminate any active <strong>Trial, Premium, or Lifetime access</strong>. Since your identity is tied to the Device ID, we will no longer be able to verify your purchase. No refunds will be issued for services lost due to a manual deletion request.</p>
 
         <h2>6. Compliance</h2>
-        <p>ElectroFix is designed to be compliant with global privacy standards (including GDPR and CCPA regarding Fraud Prevention exceptions). Users have full control over the application's activity and can stop the performance engine at any time via the user interface.</p>
+        <p>ElectroFix complies with GDPR and CCPA regarding Fraud Prevention. Users can stop the engine at any time via the UI.</p>
 
         <h2>7. Contact Us</h2>
-        <p>If you have any questions regarding this Privacy Policy, you can contact us via our developer profile details on the Google Play Store or at <strong>bogdanvoda3aap27@gmail.com</strong>.</p>
+        <p>Contact us via the Play Store developer profile or at <strong>bogdanvoda3aap27@gmail.com</strong>.</p>
 
         <div class="footer">
             &copy; 2026 ElectroFix-Soft. All rights reserved.
