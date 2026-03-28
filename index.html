@@ -69,6 +69,9 @@
             <li>
                 <strong>Device Identifiers (Cloud & Security):</strong> To prevent trial abuse, unauthorized tampering, and to ensure the integrity of the licensing system, we collect a unique <strong>Device ID (Android ID)</strong> and the <strong>Installation Timestamp</strong>. This data is stored securely using <strong>Google Firebase Realtime Database</strong>. This information is used strictly for <strong>App Functionality</strong> and <strong>Fraud Prevention</strong>.
             </li>
+            <li>
+                <strong>Analytics and Advertising Data (AD_ID):</strong> We use Google Firebase Analytics to understand how users interact with our application (e.g., when the optimization engine is started or stopped, or when a paywall is viewed). To attribute app installations to our advertising campaigns accurately, we collect the <strong>Google Advertising ID</strong>. This data is aggregated, anonymized, and used strictly to improve user experience and optimize our user acquisition campaigns.
+            </li>
         </ul>
         
         <h2>2. Permissions</h2>
@@ -78,6 +81,7 @@
             <li><strong>HIGH_SAMPLING_RATE_SENSORS:</strong> Required for precise hardware monitoring and calibration.</li>
             <li><strong>INTERNET & ACCESS_NETWORK_STATE:</strong> Required to verify the integrity of the trial period via our secure time servers (NTP) and secure cloud synchronization with Firebase.</li>
             <li><strong>ACCESS_WIFI_STATE:</strong> Required to optimize Wi-Fi connection stability during data streaming.</li>
+            <li><strong>AD_ID (Advertising ID):</strong> Required for Google Analytics to measure the effectiveness of our advertising campaigns and understand aggregated user behavior. You can reset or opt-out of personalized ads via your Android device settings.</li>
         </ul>
 
         <h2>3. Payments and Subscriptions</h2>
@@ -88,6 +92,7 @@
         <ul>
             <li><strong>Google Play Services:</strong> For application updates, security, and licensing verification.</li>
             <li><strong>Google Firebase:</strong> For secure data synchronization regarding trial status and fraud prevention.</li>
+            <li><strong>Google Analytics for Firebase:</strong> For aggregated telemetry regarding application usage, event tracking, and advertising conversion attribution.</li>
         </ul>
         <p>These services may collect information used to identify your device in accordance with their own privacy policies.</p>
 
